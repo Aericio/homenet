@@ -1,5 +1,5 @@
 resource "cloudflare_teams_account" "homenet" {
-  account_id           = var.account_id
+  account_id = var.account_id
 
   activity_log_enabled = true
   tls_decrypt_enabled  = true

@@ -1,11 +1,11 @@
 variable "api_token" {
-  type    = string
+  type = string
 }
 
 variable "zone_id" {
-  type    = string
+  type = string
 }
 
 variable "account_id" {
-  type    = string
+  type = string
 }
